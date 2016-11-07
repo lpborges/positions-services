@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: positionsTopic
+          content-type: application/json
