@@ -7,13 +7,15 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.web.context.request.RequestAttributes
 
 /**
- * Created by leandropg on 11/5/16.
+ * Created by Leandro Borges on 11/5/16.
+ *
+ * Configurations for Spring Rest and WebMVC
  */
 @Configuration
 open class RestConfiguration {
 
     /**
-     * Override Spring default Error attributes to remove the exception class from error responses
+     * Override Spring default Error attributes to remove the exception from error responses
      */
     @Bean
     open fun errorAttributes(): ErrorAttributes =

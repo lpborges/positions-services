@@ -1,8 +1,8 @@
 package br.com.lpborges.position.receiver.vo
 
-import java.time.ZonedDateTime
-
 /**
- * Created by leandropg on 10/10/16.
+ * Created by Leandro Borges on 10/10/16.
+ *
+ * Data class for a TrackerPosition with the received server time
  */
-data class ReceiverPosition(val Long: ZonedDateTime, val trackerPosition: TrackerPosition)
+data class ReceiverPosition(val serverTime: Long, val trackerPosition: TrackerPosition)

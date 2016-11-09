@@ -5,6 +5,8 @@ import java.math.BigDecimal
 
 /**
  * Created by leandropg on 10/10/16.
+ *
+ * Data classes for a tracker position
  */
 
 data class Coordinate(val longitude: BigDecimal, val latitude: BigDecimal)
